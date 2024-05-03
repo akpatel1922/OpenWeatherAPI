@@ -42,7 +42,7 @@ public class Main {
                 }
                 if (lat != null && lon != null) {
                     // Fetch weather data from OpenWeather API
-                    String apiKey = "38311ce6b86c4a0169db80d4566168d1";
+                    String apiKey = "Your_API_Key";
                     String apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + apiKey;
                     System.out.println(apiUrl);
                     URL url = new URL(apiUrl);
